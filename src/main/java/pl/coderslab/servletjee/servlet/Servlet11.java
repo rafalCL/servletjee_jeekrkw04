@@ -21,5 +21,6 @@ public class Servlet11 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Hello First Servlet");
         resp.getWriter().println("Content11");
+        req.getRemoteAddr();
     }
 }
