@@ -13,7 +13,7 @@
 <body>
     <%@ include file="header.jsp"%>
 
-    <p>Tu jest tresc naszej strony.</p>
+    <p>Tu jest treść naszej strony.</p>
 
     <%@ include file="footer.jsp"%>
 </body>
